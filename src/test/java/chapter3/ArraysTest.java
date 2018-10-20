@@ -78,4 +78,34 @@ public class ArraysTest {
         assertEquals("A", strings[3]);
         assertEquals("a", strings[4]);
     }
+
+    @Test
+    public void multiDimensionalArrayPrint() {
+        int[][] twoD = new int[3][2];
+        for (int i = 0; i < twoD.length; i++) {
+            for (int j = 0; j < twoD[i].length; j++) {
+                System.out.print(twoD[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        for (int[] inner : twoD) {
+            for (int num : inner) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    @Test
+    public void multiDimensionalArray() {
+        int[][] twoD = {{1, 2}, {3, 4}, {5, 6}};
+
+        assertEquals(1, twoD[0][0]);
+        assertEquals(2, twoD[0][1]);
+        assertEquals(3, twoD[1][0]);
+        assertEquals(4, twoD[1][1]);
+        assertEquals(5, twoD[2][0]);
+        assertEquals(6, twoD[2][1]);
+    }
 }
