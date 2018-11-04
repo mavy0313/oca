@@ -9,4 +9,6 @@ public class Varargs {
         varargs.fly(1, 2, 3);
 //        varargs.fly(new int[]{1, 2, 3});
     }
+
+    public void swim(String[] strings, int... nums) {}
 }
