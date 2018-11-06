@@ -1,4 +1,6 @@
-package chapter5;
+package chapter5.callinginheritedclassmembers;
+
+import chapter5.callinginheritedclassmembers.Fish;
 
 public class Shark extends Fish {
     private int numberOfFins = 8;

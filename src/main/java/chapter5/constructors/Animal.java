@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5.constructors;
 
 public class Animal {
     private int age;

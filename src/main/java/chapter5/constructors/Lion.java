@@ -1,4 +1,6 @@
-package chapter5;
+package chapter5.constructors;
+
+import chapter5.constructors.AnimalWithoutConstructor;
 
 public class Lion extends AnimalWithoutConstructor {
     private void roar() {

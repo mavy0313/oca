@@ -1,4 +1,6 @@
-package chapter5;
+package chapter5.constructors;
+
+import chapter5.constructors.AnimalWithTwoConstructors;
 
 public class Gorilla extends AnimalWithTwoConstructors {
     public Gorilla(int age) {
