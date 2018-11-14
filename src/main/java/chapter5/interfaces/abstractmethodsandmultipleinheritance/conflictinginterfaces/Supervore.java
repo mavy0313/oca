@@ -1,4 +1,4 @@
 package chapter5.interfaces.abstractmethodsandmultipleinheritance.conflictinginterfaces;
 
-public interface Supervore extends Herbivore, Omnivore {
-}
+//public interface Supervore extends Herbivore, Omnivore {
+//}
