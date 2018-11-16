@@ -1,0 +1,47 @@
+1. C - E
+2. B - C
+3. C - C, D, E
+4. A - C
+5. C - D
+6. B +
+7. E - B
+8. H - A
+9. B, C, E - B, C
+10. C, F - C, D, F
+11. E - B
+12. C - B
+13. C +
+14. F - D, E, F
+15. A,C,E +
+16. G - F, G
+17. D, E - A, C, F
+18. B - B, D
+19. C +
+20. B, C - A, C
+
+16 of 20 failed
+
+1. E +
+2. C +
+3. C - C, D, E
+4. C +
+5. D +
+6. B +
+7. B +
+8. A +
+9. B, C, E - B, C
+10. C, D, F +
+11. B +
+12. B +
+13. C +
+14. D, E - D, E, F
+15. A, C, E +
+16. F, G - D, F, G
+17. A, E, D - A, C, F
+18. B, C - B, D
+19. C +
+20. A, C +
+
+6 of 20 failed
+
+
